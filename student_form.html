@@ -8,31 +8,41 @@
 <body>
   <h2>Student Registration Form</h2>
 
+  <!-- Input field for the student's name -->
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="name" required><br><br>
 
+  <!-- Input field for the student's date of birth -->
   <label for="dob">Date of Birth:</label><br>
   <input type="date" id="dob" name="dob" required><br><br>
 
+  <!-- Dropdown menu for selecting gender -->
   <label for="gender">Gender:</label><br>
   <select id="gender" name="gender" required>
     <option value="male">Male</option>
     <option value="female">Female</option>
   </select><br><br>
 
+  <!-- Textarea for entering the student's address -->
   <label for="address">Address:</label><br>
   <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
 
+  <!-- Input field for the student's telephone number -->
   <label for="telephone">Telephone:</label><br>
   <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
 
+  <!-- Input field for the student's email address -->
   <label for="email">Email Address:</label><br>
   <input type="email" id="email" name="email" required><br><br>
 
+  
+  <!-- Input field for the course the student is registering for -->
   <label for="course">Course:</label><br>
   <input type="text" id="course" name="course" required><br><br>
 
+  <!-- Submit button to register -->
   <input type="submit" value="Register">
+  <!-- Button to cancel the registration -->
   <button type="button">Cancel</button>
 
 </body>
